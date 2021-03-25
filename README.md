@@ -1,5 +1,5 @@
 # PII-LexNLP
-Helps detect Personal Identifiable Information from Image file
+Helps detect Personal Identifiable Information from an Image file
 
 This project facilitates fetching the following personal Identifiable Information from images/ screenshots
 
