@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head><title>Upload Image</title></head>
+ <body>
+  <center>
+   {% if msg %}
+   <p class = "p3">{{ msg }}</p>
+   {% endif %}
+   <h1>Upload new File</h1>
+   <form method=post enctype=multipart/form-data>
+     <p><input type=file name=file> <input type=submit value=Upload>
+   </form>
+   <h1>Result:</h1>
+   {% if img_src %}
+     <img height = 400 width = 300 border=1 src="{{ img_src }}">
+   {% endif %}
+   {% if extracted_text %}
+     <p class = "p2"> The extracted text from the image above is: <br>
+       <b><i> {{ extracted_text }} </i></b>
+     </p>
+   {% else %}
+     The extracted text will be displayed here
+   {% endif %}
+   {% if pii_text %}
+     <p  class = "p1"> The extracted Personal Identifiable texts from the uploaded image  is: <br> 
+      <b><i><red> {{ pii_text }} </red></i></b>
+    </p>
+   {% endif %}
+  </center>
+ </body>
+</html>
