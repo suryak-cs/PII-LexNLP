@@ -26,3 +26,8 @@ Steps to set the project along with python packages. This is a flask web framewo
 13. As soon as you run the above comamnd you can open the home page by loading 127.0.0.1:5000 (index.html)
 14. Click the upload link and then upload any snapshot or image which has some kind of PII and click upload
 15. You should see result displaying fetched textual information and PIIs
+
+Special Thanks to:
+
+Robley Gori — PyTesseract — Simple Python Optical Character Recognition
+https://stackabuse.com/pytesseract-simple-python-optical-character-recognition
