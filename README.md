@@ -3,8 +3,9 @@ Helps detect Personal Identifiable Information from Image file
 
 This project facilitates fetching the following personal Identifiable Information from images/ screenshots
 
-1. SSN
-2. Phone Number
+ - SSN
+ - Phone Number
+
 Steps to set the project along with python packages. This is a flask web framework and it needs some python packages for the functionality to work.
 
 1. Clone the proect
